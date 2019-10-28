@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_weight="1"
+              android:background="?selectableItemBackground">
+    <TextView
+            android:id="@+id/dczerwinski_name_of_item"
+            android:layout_width="252dp"
+            android:layout_height="44dp"
+            android:lineSpacingExtra="8sp"
+            android:shadowColor="#BAFFC107"
+            android:text="Description"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteY="0dp"/>
+    <Button
+            android:id="@+id/dczerwinski_edit_button"
+            android:text="Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
