@@ -21,7 +21,6 @@ class RoomListActivity : AppCompatActivity(){
     private val mEditRoomActivityCode = 3
     private var TAG = "RoomListActivity"
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_room_list)

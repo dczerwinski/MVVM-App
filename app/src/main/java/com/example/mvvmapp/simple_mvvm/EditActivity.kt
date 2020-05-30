@@ -21,7 +21,6 @@ class EditActivity : AppCompatActivity(){
 
         Log.d(TAG,"onCreate")
 
-
         val title = intent.extras!!["name"].toString()
         val T_id = intent.extras!!["T_id"] as Int
 

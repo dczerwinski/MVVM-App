@@ -13,7 +13,6 @@ data class MyRoom(
     var room_id: Int = 0
 }
 
-
 @Entity(tableName = "things_table",foreignKeys = arrayOf(
     ForeignKey(
         entity = MyRoom::class,

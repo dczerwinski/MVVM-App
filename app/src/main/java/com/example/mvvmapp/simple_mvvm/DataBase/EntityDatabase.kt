@@ -16,7 +16,6 @@ abstract class EntityDatabase: RoomDatabase() {
     companion object{
         @Volatile
         private var INSTANCE: EntityDatabase? = null
-
         fun getDatabase(
             context: Context,
             scope: CoroutineScope

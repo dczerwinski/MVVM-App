@@ -25,7 +25,6 @@ class ThingsListActivity : AppCompatActivity() {
     private val mEditDeviceActivityCode = 4
     private var TAG = "ThingsListActivity"
 
-
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

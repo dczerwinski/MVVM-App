@@ -15,6 +15,7 @@ import com.example.mvvmapp.simple_mvvm.DataBase.MyRoom
 
 class RecyclerAdapter<T> : RecyclerView.Adapter<RecyclerAdapter.MyViewHolder>() {
 
+
     private var list: ArrayList<T> = arrayListOf()
     private var room_id: Int = -1
     private var requestCode: Int = -1

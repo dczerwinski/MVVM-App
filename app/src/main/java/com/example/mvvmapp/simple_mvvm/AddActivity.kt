@@ -18,6 +18,7 @@ class AddActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_room)
 
+
         Log.d(TAG,"onCreate")
 
         val mAddButton: Button = findViewById(R.id.dczerwinski_button_add)
